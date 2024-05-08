@@ -2,13 +2,13 @@ apiVersion: v1
 entries:
   poke-helm:
   - apiVersion: v2
-    created: "2024-05-08T16:21:59.4312539-03:00"
+    created: "2024-05-08T16:27:42.4883794-03:00"
     description: A Helm chart for Kubernetes
     digest: f87ca643ed8004dfb4ab574a3552303bb608990c56b72bf394250a23de30e555
     name: poke-helm
     type: application
     urls:
-    - https://abelucci.github.io/HELM/poke-helm-0.1.0.tgz
+    - https://abelucci.github.io/HELM/charts/poke-helm-0.1.0.tgz
     version: 0.1.0
   wordpress:
   - annotations:
@@ -23,7 +23,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 6.3.1
-    created: "2024-05-08T16:21:59.4619621-03:00"
+    created: "2024-05-08T16:27:42.497115-03:00"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -59,6 +59,6 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/wordpress
     urls:
-    - https://abelucci.github.io/HELM/wordpress-17.1.13.tgz
+    - https://abelucci.github.io/HELM/charts/wordpress-17.1.13.tgz
     version: 17.1.13
-generated: "2024-05-08T16:21:59.4262538-03:00"
+generated: "2024-05-08T16:27:42.4878225-03:00"
