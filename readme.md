@@ -18,12 +18,12 @@ Tener en condideración, un dockerfile, crear la imagen con el tag correspondien
   ![1715276753431.png](./images/1715276753431.png)
 
   ![1715276800714.png](./images/1715276800714.png)
-* Chequeo
+* Verificación:
 
   ```
   helm list -a
   ```
-* Instalar chart en localhost
+* Instalar chart en localhost:
 
   ```
   helm install <name replease> <name chart>
@@ -56,7 +56,7 @@ Tener en condideración, un dockerfile, crear la imagen con el tag correspondien
 
   Se puede seguir dos caminos, crear el paquete, agregar un index de metadatos y subirlo manualmente al repo o, crear un pipeline para que realice este trabajo para vez que agreguemos un chart nuevo o que modifiquemos el chart.
 
-  **CREACIÓN DE PAQUETE MANUAL & PUSH A GITHUB**
+  # **CREACIÓN DE PAQUETE MANUAL & PUSH A GITHUB**
 * Crear empaquetado:
 
   ```
@@ -73,7 +73,7 @@ Tener en condideración, un dockerfile, crear la imagen con el tag correspondien
   Todo esto se sincroniza en github para poder acceder al paquete.
   Resta agregar repo a mi lista de repo helm en localhost
 
-  **CREACIÓN DE PAQUETE POR PIPELINE GITHUB ACTIONS**
+  # **CREACIÓN DE PAQUETE POR PIPELINE GITHUB ACTIONS**
 
   Primeramente crear workflow para tener automatización a la hora de crear el paquete y el index.yml. Habilitar tambien permisos para workflow, ya que por default, los permisos estan en "read".
 * Crear en la siguiente estructura el pipeline:
@@ -157,7 +157,6 @@ Tener en condideración, un dockerfile, crear la imagen con el tag correspondien
   Para poder modificar este readme, se debe user el que se encuentra en la rama "gh-pages".
 
   ![1715280868825.png](./images/1715280868825.png)
-
 
 # **BIBLIOGRAFÍA**
 
