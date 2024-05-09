@@ -162,4 +162,4 @@ Tener en condideración, un dockerfile, crear la imagen con el tag correspondien
 # **BIBLIOGRAFÍA**
 
 * [https://www.opcito.com/blogs/creating-helm-repository-using-github-pages](https://www.opcito.com/blogs/creating-helm-repository-using-github-pages)
-* [https://praveeng-nair.medium.com/host-your-helm-chart-repo-on-github-d189bf19fe60](https://praveeng-nair.medium.com/host-your-helm-chart-repo-on-github-d189bf19fe60)
+* https://praveeng-nair.medium.com/host-your-helm-chart-repo-on-github-d189bf19fe60
