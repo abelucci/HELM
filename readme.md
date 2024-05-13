@@ -4,7 +4,7 @@ Repositorios de charts Local y Público.
 
 **REPO LOCAL**
 
-Tener en condideración, un dockerfile, crear la imagen con el tag correspondiente y luego, enviarlo (push) a algún repo de imágenes (docker hub).
+Tener en consideración, un dockerfile, crear la imagen con el tag correspondiente y luego, enviarlo (push) a algún repo de imágenes (docker hub).
 
 * Para crear chart, primeramente se debe descargar la plantilla:
 
