@@ -54,7 +54,7 @@ Tener en consideración, un dockerfile, crear la imagen con el tag correspondien
   echo -e “User-Agent: *\nDisallow: /” > robots.txt
   ```
 
-  Se puede seguir dos caminos, crear el paquete, agregar un index de metadatos y subirlo manualmente al repo o, crear un pipeline para que realice este trabajo para vez que agreguemos un chart nuevo o que modifiquemos el chart.
+  Se puede seguir dos caminos, crear el paquete, agregar un index de metadatos y subirlo manualmente al repo o, crear un pipeline para que realice este trabajo cada vez que agreguemos un chart nuevo o que modifiquemos el chart.
 
   # **CREACIÓN DE PAQUETE MANUAL & PUSH A GITHUB**
 * Crear empaquetado:
