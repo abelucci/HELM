@@ -40,8 +40,8 @@ service:
   type: NodePort
   port: 5000
 
-#annotations:
-#  service.beta.kubernetes.io/azure-dns-label-name: my-pokedex-it
+annotations:
+  service.beta.kubernetes.io/azure-dns-label-name: my-pokedex-it
   
 ingress:
   enabled: false
