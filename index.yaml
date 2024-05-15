@@ -30,6 +30,17 @@ entries:
     urls:
     - https://github.com/abelucci/HELM/releases/download/poke-helm-0.1.0/poke-helm-0.1.0.tgz
     version: 0.1.0
+  poke-helm-azure:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-05-15T18:34:09.732493776Z"
+    description: Chart in Azure FQDN
+    digest: b45407675e9cbd452628adff27ad144d62820827f4ef82f692ca46f07e0bc780
+    name: poke-helm-azure
+    type: application
+    urls:
+    - https://github.com/abelucci/HELM/releases/download/poke-helm-azure-1.0.0/poke-helm-azure-1.0.0.tgz
+    version: 1.0.0
   wordpress:
   - annotations:
       category: CMS
@@ -81,4 +92,4 @@ entries:
     urls:
     - https://github.com/abelucci/HELM/releases/download/wordpress-17.1.13/wordpress-17.1.13.tgz
     version: 17.1.13
-generated: "2024-05-15T12:59:36.1659176Z"
+generated: "2024-05-15T18:34:09.732542717Z"
