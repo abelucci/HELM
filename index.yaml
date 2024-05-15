@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   poke-helm:
   - apiVersion: v2
+    appVersion: 3.0.0
+    created: "2024-05-15T12:59:36.165904315Z"
+    description: A Helm chart POKEDEX-FLASK for Kubernetes
+    digest: e03cc5d419cad845c6383b607495ee444beaabfd34d8abc70ca25127461bccd4
+    name: poke-helm
+    type: application
+    urls:
+    - https://github.com/abelucci/HELM/releases/download/poke-helm-3.0.0/poke-helm-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v2
     appVersion: 2.0.0
     created: "2024-05-09T16:47:48.313004559Z"
     description: A Helm chart POKEDEX-FLASK for Kubernetes
@@ -71,4 +81,4 @@ entries:
     urls:
     - https://github.com/abelucci/HELM/releases/download/wordpress-17.1.13/wordpress-17.1.13.tgz
     version: 17.1.13
-generated: "2024-05-09T16:47:48.313019828Z"
+generated: "2024-05-15T12:59:36.1659176Z"
