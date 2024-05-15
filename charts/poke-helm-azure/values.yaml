@@ -41,7 +41,7 @@ service:
   port: 5000
 
 annotations:
-  service.beta.kubernetes.io/azure-dns-label-name: my-pokedex-it
+  service.beta.kubernetes.io/azure-dns-label-name: mypokedexit
   
 ingress:
   enabled: false
