@@ -41,7 +41,7 @@ service:
   port: 5000
 
 dnsname:
-  name: my-pokedex-it
+  name: pokeit
   
 ingress:
   enabled: false
