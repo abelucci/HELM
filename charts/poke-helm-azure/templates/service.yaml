@@ -1,7 +1,8 @@
 apiVersion: v1
 kind: Service
 metadata:
-  annotations: {{ .Values.annotations "service.beta.kubernetes.io/azure-dns-label-name" }}
+  annotations: 
+    service.beta.kubernetes.io/azure-dns-label-name: {{ .Values.dnsname.name }}
   name: {{ include "poke-helm-azure.fullname" . }}
   labels:
     {{- include "poke-helm-azure.labels" . | nindent 4 }}

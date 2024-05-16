@@ -37,11 +37,11 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  type: NodePort
+  type: LoadBalancer
   port: 5000
 
-annotations:
-  service.beta.kubernetes.io/azure-dns-label-name: "mypokedexit"
+dnsname:
+  name: mypokedexit
   
 ingress:
   enabled: false
