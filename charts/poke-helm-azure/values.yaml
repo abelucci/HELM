@@ -41,7 +41,7 @@ service:
   port: 5000
 
 dnsname:
-  name: pokeit
+  name: mypokedexit
   
 ingress:
   enabled: false
