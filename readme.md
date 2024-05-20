@@ -158,6 +158,32 @@ Tener en consideración, un dockerfile, crear la imagen con el tag correspondien
 
   ![1715280868825.png](./images/1715280868825.png)
 
+# **CHART WORDPRESS**
+
+Descargar chart desde la pagina oficial de bitnami
+
+* Sitio:
+  [https://bitnami.com/stack/wordpress/helm](https://bitnami.com/stack/wordpress/helmhttps://)
+  [https://github.com/bitnami/charts/tree/main/bitnami/wordpress/#installing-the-chart](https://github.com/bitnami/charts/tree/main/bitnami/wordpress/#installing-the-charthttps://)
+* Comandos para instalar:
+
+  ```
+  helm install wps --set service.type=NodePort oci://registry-1.docker.io/bitnamicharts/wordpress 
+  ```
+* Luego, verificar el puerto en donde se publica el servicio para visualizarlo en el navegador:
+
+  ```
+  kubectl get svc
+  ```
+* Para poder conectar a mariaDB, modificar el *services *para que puede ser expuesto por fuera del cluster (nodePort):
+
+  ```
+   kubectl edit svc/registry
+   kubectl edit svc/wps-mariadb  
+  ```
+
+
+
 # **BIBLIOGRAFÍA**
 
 * [https://www.opcito.com/blogs/creating-helm-repository-using-github-pages](https://www.opcito.com/blogs/creating-helm-repository-using-github-pages)
