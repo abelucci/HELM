@@ -162,8 +162,7 @@ Tener en consideración, un dockerfile, crear la imagen con el tag correspondien
 
 Descargar chart desde la pagina oficial de bitnami
 
-* Sitio:
-  [https://bitnami.com/stack/wordpress/helm](https://bitnami.com/stack/wordpress/helmhttps://)
+* Sitio:[https://bitnami.com/stack/wordpress/helm](https://bitnami.com/stack/wordpress/helmhttps://)
   [https://github.com/bitnami/charts/tree/main/bitnami/wordpress/#installing-the-chart](https://github.com/bitnami/charts/tree/main/bitnami/wordpress/#installing-the-charthttps://)
 * Comandos para instalar:
 
@@ -181,8 +180,13 @@ Descargar chart desde la pagina oficial de bitnami
    kubectl edit svc/registry
    kubectl edit svc/wps-mariadb  
   ```
+* Verificar clave mariaDB:
 
+  ```
+  kubectl get secret --namespace default wps-mariadb -o jsonpath="{.data.mariadb-root-password}" | base64 --decode
+  ```
 
+  El usuario es es root y la tabla es bitnami_wordpress
 
 # **BIBLIOGRAFÍA**
 
