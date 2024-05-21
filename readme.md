@@ -162,7 +162,7 @@ Tener en consideración, un dockerfile, crear la imagen con el tag correspondien
 
 Descargar chart desde la pagina oficial de bitnami
 
-* Sitio:[https://bitnami.com/stack/wordpress/helm](https://bitnami.com/stack/wordpress/helmhttps://)
+* [https://bitnami.com/stack/wordpress/helm](https://bitnami.com/stack/wordpress/helmhttps://)
   [https://github.com/bitnami/charts/tree/main/bitnami/wordpress/#installing-the-chart](https://github.com/bitnami/charts/tree/main/bitnami/wordpress/#installing-the-charthttps://)
 * Comandos para instalar:
 
@@ -174,7 +174,7 @@ Descargar chart desde la pagina oficial de bitnami
   ```
   kubectl get svc
   ```
-* Para poder conectar a mariaDB, modificar el *services *para que puede ser expuesto por fuera del cluster (nodePort):
+* Para poder conectar a mariaDB, modificar el *services* para que pueda ser expuesto por fuera del cluster (nodePort):
 
   ```
    kubectl edit svc/registry
